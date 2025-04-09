@@ -1,0 +1,64 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    background-color: #dcdcdc; /* Более темный фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('static/back2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+.container {
+    max-width: 600px;
+    padding: 50px;
+    padding-top: 0px;
+    background-color: #fff;
+    border: 5px solid #d4af37; /* Позолоченная рамка */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Увеличенная тень для эффекта глубины */
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Эффект полированной поверхности */
+    position: relative; /* Добавлено для позиционирования дочерних элементов */
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive; /* Каллиграфический шрифт */
+    color: #000; /* Черный цвет */
+    font-size: 60px; /* Размер шрифта */
+    font-weight: 300; /* Более тонкий шрифт */
+    position: relative;
+    z-index: 2; /* Поверх полупрозрачного слоя */
+}
+
+p {
+    color: #444; /* Более яркий цвет текста для параграфов */
+    position: relative;
+    z-index: 2; /* Поверх полупрозрачного слоя */
+}
+
+#invite {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+#date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+.line {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
